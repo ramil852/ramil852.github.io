@@ -39,3 +39,46 @@
   <script src="script.js"></script>
 </body>
 </html>
+<nav>
+    <ul>
+      <li><a href="#audio" class="nav-link">Аудио</a></li>
+      <li><a href="#video" class="nav-link">Видео</a></li>
+      <li><a href="#map" class="nav-link">Карта</a></li>
+      <li><a href="#animation" class="nav-link">Анимация</a></li>
+    </ul>
+  </nav>
+
+  <div id="audio" class="section active">
+    <h2>Аудио</h2>
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg">
+      Ваш браузер не поддерживает аудио.
+    </audio>
+  </div>
+
+  <div id="video" class="section">
+    <h2>Видео</h2>
+    <iframe width="560" height="315" 
+      src="https://www.youtube.com/embed/Lrle0x_DHBM" 
+      title="YouTube video player" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div id="map" class="section">
+    <h2>Карта</h2>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.822460481321!2d76.88927407655454!3d43.23894998008857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836ebf4e9c9c89%3A0x46d48464b1fd78f5!2sUIB%20University!5e0!3m2!1sen!2skz!4v1685041830957!5m2!1sen!2skz" 
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+  </div>
+
+  <div id="animation" class="section">
+    <h2>Анимация</h2>
+    <p class="animate">Пример текста с анимацией</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
