@@ -1,0 +1,37 @@
+/* Навигация */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Секции */
+.section {
+  display: none;
+  padding: 80px 20px 20px; /* добавим отступ сверху из-за фиксированной навигации */
+}
+
+.section.active {
+  display: block;
+}
