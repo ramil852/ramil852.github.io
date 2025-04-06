@@ -35,3 +35,11 @@ nav ul li a {
 .section.active {
   display: block;
 }
+/* Пример CSS-анимации */ 
+.animate { 
+animation: fadein 2s;  
+} 
+@keyframes fadein { 
+from { opacity: 0; }  
+to   { opacity: 1; }  
+}
